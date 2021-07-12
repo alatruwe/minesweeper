@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const square = document.createElement("div");
       // set an id
       square.setAttribute("id", i);
+      // add classname
+      square.classList.add(shuffledArray[i]);
       // add it to grid
       grid.appendChild(square);
       squares.push(square);
